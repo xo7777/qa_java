@@ -37,8 +37,8 @@ public class LionTest {
     }
 
     @Test
-    public void checkExceptionWhenIncorrectSex(){
-        try{
+    public void checkExceptionWhenIncorrectSex() {
+        try {
             Lion lion = new Lion("Мужской", feline);
         } catch (Exception e) {
             assertEquals("Используйте допустимые значения пола животного - самец или самка", e.getMessage());
